@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            height:75px;
+        }
+        nav{
+            background-color: black;
+            color:white;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            font-size: 50px;
+        }
+        @media only screen and (max-width:950px){
+            nav{
+                font-size: 30px;
+            }
+        }
+        @media only screen and (max-width:700px){
+            nav{
+                font-size:25px;
+            }
+        }
+        @media only screen and (max-width:400px){
+            nav{
+                font-size:15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>Home</div>
+        <div>Service</div>
+        <div>About Us</div>
+    </nav>
+</body>
+</html>
